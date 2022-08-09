@@ -98,6 +98,11 @@ nav{
     top:0;
     z-index: 11;
 }
+/* Change navbar styles on scroll using javacsript */
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+}
 .nav__container{
     height: 5rem;
     display: flex;
