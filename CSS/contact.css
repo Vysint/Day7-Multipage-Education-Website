@@ -76,3 +76,27 @@ form .btn{
     margin-top: 1rem;
     cursor: pointer;
 }
+
+/* MEDIA QUERIES (TABLETS) */
+
+@media screen and (max-width:1024px){
+    .contact{
+        padding-bottom: 0;
+    }
+    .contact__container{
+        gap:1.5rem;
+        margin-top: 3rem;
+        padding: 1.5rem;
+        height: auto;
+    }
+    .contact__aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    form{
+        align-self: center;
+        margin-right:1.5rem;
+
+    }
+}
